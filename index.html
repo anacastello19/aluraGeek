@@ -24,74 +24,7 @@
     <main>
         <section class="productosContainer">
             <h1 class="titleMisProductos">MIS PRODUCTOS:</h1>
-            <div class="generalCar">
-                <div class="car">
-                    <img class="imgProduct" src="img/tazaBlanca.jpeg" alt="">
-                    <h6 class="titleH6">Stormtrooper</h6>
-                    <div class="titleContainer">
-                        <p class="titleP">$60.00</p>
-                        <button class ="basura"><i class="bi bi-trash"></i></button>                   
-                    </div>
-                </div>
-                <div class="car">
-                    <img class="imgProduct" src="img/tazaBlanca.jpeg" alt="">
-                    <h6 class="titleH6">Stormtrooper</h6>
-                    <div class="titleContainer">
-                        <p class="titleP">$60.00</p>
-                        <button class="basura"><i class="bi bi-trash"></i></button>
-                    </div>
-                </div>
-
-                <div class="car">
-                    <img class="imgProduct" src="img/tazaBlanca.jpeg" alt="">
-                    <h6 class="titleH6">Stormtrooper</h6>
-                    <div class="titleContainer">
-                        <p class="titleP">$60.00</p>
-                        <button class="basura"><i class="bi bi-trash"></i></button>
-                    </div>
-                </div>
-                <div class="car">
-                    <img class="imgProduct" src="img/tazaBlanca.jpeg" alt="">
-                    <h6 class="titleH6">Stormtrooper</h6>
-                    <div class="titleContainer">
-                        <p class="titleP">$60.00</p>
-                        <button class="basura"><i class="bi bi-trash"></i></button>
-                    </div>
-                </div>
-                <div class="car">
-                    <img class="imgProduct" src="img/tazaBlanca.jpeg" alt="">
-                    <h6 class="titleH6">Stormtrooper</h6>
-                    <div class="titleContainer">
-                        <p class="titleP">$60.00</p>
-                        <button class="basura"><i class="bi bi-trash"></i></button>
-                    </div>
-                </div>
-                
-                <div class="car">
-                    <img class="imgProduct" src="img/tazaBlanca.jpeg" alt="">
-                    <h6 class="titleH6">Stormtrooper</h6>
-                    <div class="titleContainer">
-                        <p class="titleP">$60.00</p>
-                        <button class="basura"><i class="bi bi-trash"></i></button>
-                    </div>
-                </div>
-                <div class="car">
-                    <img class="imgProduct" src="img/tazaBlanca.jpeg" alt="">
-                    <h6 class="titleH6">Stormtrooper</h6>
-                    <div class="titleContainer">
-                        <p class="titleP">$60.00</p>
-                        <button class="basura"><i class="bi bi-trash"></i></button>
-                    </div>
-                </div>
-                
-                <div class="car">
-                    <img class="imgProduct" src="img/tazaBlanca.jpeg" alt="">
-                    <h6 class="titleH6">Stormtrooper</h6>
-                    <div class="titleContainer">
-                        <p class="titleP">$60.00</p>
-                        <button class="basura"><i class="bi bi-trash"></i></button>
-                    </div>
-                </div>
+            <div class="generalCar" data-lista>
                 <div class="car">
                     <img class="imgProduct" src="img/tazaBlanca.jpeg" alt="">
                     <h6 class="titleH6">Stormtrooper</h6>
@@ -104,17 +37,24 @@
             </div>
 
         </section>
+
+
         <section class="agregar">
-            <h1>AGREGAR PRODUCTO:</h1>
-            <form action="">
-                <fieldset>
+            <h1 class="titleMisProductos">AGREGAR PRODUCTO:</h1>
+            <form class="form" data-formulario>
+                <fieldset class="contenedorForm">
                     <label for="nombre" ></label>
-                    <input name="nombre" id="nombre" placeholder="nombre...">
-                    <label for="nombre">nombre...</label>
-                    <input name="nombre" id="nombre">
-                    <label for="nombre">nombre...</label>
-                    <input name="nombre" id="nombre">
+                    <input name="nombre" id="nombre" placeholder="nombre..." data-nombre>
+                    <label for="precio"></label>
+                    <input name="precio" id="precio" placeholder="precio.." data-precio>
+                    <label for="imagen"></label>
+                    <input name="imagen" id="imagen" placeholder="imagen..." data-imagen>
                 </fieldset>
+
+                <div class="btn">
+                    <button  class="btnE" type="submit">Enviar</button>
+                    <button class="btnL" type="button" >Limpiar</button>
+                </div>
             </form>
         </section>
     </main>
@@ -128,5 +68,7 @@
 
         <h1 class="dev">Desarollado por Ana Castello</h1>
     </footer>
+    <script src="js/mostrarPoductos.js" type="module"></script>
+    <script src="js/crearCard.js" type="module"></script>
 </body>
 </html>

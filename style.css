@@ -1,5 +1,6 @@
 html{
-    overflow-y: hidden;
+    /* overflow-y: hidden; */
+    font-family: "Chakra Petch", sans-serif;
 }
 header{
     background: #5300C8;
@@ -28,21 +29,27 @@ main{
     padding: 100px 40px 60px 40px;
 
 }
+
+.productosContainer{
+    width: 65%;
+}
+
 .titleMisProductos{
     font-size: 4vh;
     font-family: "Chakra Petch", sans-serif;
     color: #000;
+    font-weight: bold;
     text-align: center;
 }
 .generalCar{
-    margin: 1.5vh 5vh ;
-    padding-bottom: 4vh;
+    margin: 1.5vh 1vh ;
     padding: 1vh;
-    height: 59vh;
+    height: 58vh;
     box-shadow: -12px 10px 5.8px 0px #00000040;
     display: grid;
     grid-template-columns: 200px 200px 200px;
     overflow-y: scroll;
+    width: 90%;
 }
 
 
@@ -54,19 +61,20 @@ main{
 
 .car{
     background: #5300C8;
-    width: 14vh;
+    width: 20vh;
     margin: 1vh;
+    margin-left: 15vh;
     padding: 1vh;
     border-radius: 1.5vh;
     border: 0.1vh solid #000 ;
-    padding: 1vh;
-    height: 20vh;
+    height: 25vh;
     box-shadow: #000 1px 1px 10px;
 
 }
+
 .imgProduct{
-    width: 13vh;
-    height: 11vh;
+    width: 19vh;
+    height: 18vh;
     gap: 0px;
     border-radius: 0.5vh;
     border: 0.2vh solid #000;
@@ -75,7 +83,7 @@ main{
 }
 
 .titleH6{
-    font-size: 1.5vh;
+    font-size: 2vh;
     margin-top: 1vh;
     font-family: "Chakra Petch", sans-serif;
     color: #E5E5E5;
@@ -84,10 +92,10 @@ main{
 .titleContainer{
     display: flex;
     justify-content: space-between;
-    
+    font-weight: bold;
 }
 .titleP{
-    font-size: 1.2vh;
+    font-size: 1.8vh;
     margin-top: 2vh;
     font-family: "Chakra Petch", sans-serif;
     color: #E5E5E5;
@@ -95,6 +103,59 @@ main{
 .basura{
     color: #E5E5E5 ;
 }
+
+.agregar{
+    width: 30%;
+
+}
+.form{
+    width: 100%;
+}
+.contenedorForm{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    margin: 3vh;
+}
+
+.contenedorForm input{
+    color: #03318C;
+    border: 0.4vh solid #03318C;
+    border-radius: 10vh;
+    margin: 1vh;
+    padding: 1.5vh;
+    width: 70%;
+    font-family: "Chakra Petch", sans-serif
+}
+
+.contenedorForm input::placeholder {
+    color: #03318C;
+}
+
+.btn{
+    text-align: center;
+    font-family: "Chakra Petch", sans-serif;
+    font-size: 2.5vh;
+    font-weight:bolder;
+}
+.btnE{
+    background: #03318C;
+    color: #E5E5E5;
+    border-radius: 2.5vh ;
+    width: 15vh;
+    padding: 1.5vh;
+}
+
+.btnL {
+    color: #03318C;
+    background: #E5E5E5;
+    border-radius: 2.5vh;
+    width: 15vh;
+    padding: 1.5vh;
+}
+
+
 /* Pie */
 footer {
     padding: 1vh;
@@ -124,4 +185,46 @@ footer {
 .dev{
     font-family: "Chakra Petch", sans-serif;
     margin-bottom: 3vh;
+}
+@media screen and (max-width: 750px) {
+    main{
+        display: flex;
+        flex-direction: column;
+        overflow-y: scroll;
+        padding: 11vh 1vh 15vh 1vh;
+        text-align: center;
+    }
+    .productosContainer{
+        width: 100%;
+        margin: 1vh;
+    }
+    .generalCar{
+        margin: 0vh 5vh;
+        width: 140%;
+        box-shadow: none;
+        display: grid ;
+        grid-template-columns: 200px 200px 200px 200px ;
+        flex-basis: 20rem;
+        flex-grow: 1;
+        overflow-y: hidden;
+        overflow-x: scroll;
+    }
+    .car{
+        margin: 10%;
+    }
+    .titleMisProductos {
+        
+        margin: 0vh 2vh;
+        width: 95%;
+    }
+    .form{
+        width: 95%;
+        margin: 1vh;
+    }
+    .agregar{
+        width: 88%;
+        margin: 5vh;
+
+    }
+    
 }
