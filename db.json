@@ -1,16 +1,22 @@
 {
     "productos": [
         {
+            "id":1,
             "nombre":"Stormtrooper",
             "precio":"60.00",
-            "imagen":"https://s3-alpha-sig.figma.com/img/7288/617c/839c11fc3105027e126215f3647fa5b0?Expires=1721001600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Ndk-7NiOQRKmxloL-PtlMFV7gWpS53I11dkC7FeIBalpe9mMr~ehsIW-Yev0~GrUyIH-7yrZK1W6ZFfEfqrL6x1kHCbhQAFChKxOFJ6dU-BwkptwwVlnLEPfEwcrtpzARrsjJWvkT1Zw-TvU47Ygr2dEKlZwkZqj4gO0XNjhWLQ9UzCnP0727c3kY5p35MiJHqyClFnwlaL-OCOC8TsiJ6Q6xNM6KpijDLLFap87WxUAiaFbsquy~FWeKVRxvjJ3xaU-NXidZW98W0vVOhnxS1mrBQ8LvqTMyvvvpQ~cK9QuIR9KNCBuw~bswNFhDESDBZy5sWNK-O0PQmma7og2Rg__",
-            "id":1     
+            "imagen":"https://s3-alpha-sig.figma.com/img/7288/617c/839c11fc3105027e126215f3647fa5b0?Expires=1721001600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Ndk-7NiOQRKmxloL-PtlMFV7gWpS53I11dkC7FeIBalpe9mMr~ehsIW-Yev0~GrUyIH-7yrZK1W6ZFfEfqrL6x1kHCbhQAFChKxOFJ6dU-BwkptwwVlnLEPfEwcrtpzARrsjJWvkT1Zw-TvU47Ygr2dEKlZwkZqj4gO0XNjhWLQ9UzCnP0727c3kY5p35MiJHqyClFnwlaL-OCOC8TsiJ6Q6xNM6KpijDLLFap87WxUAiaFbsquy~FWeKVRxvjJ3xaU-NXidZW98W0vVOhnxS1mrBQ8LvqTMyvvvpQ~cK9QuIR9KNCBuw~bswNFhDESDBZy5sWNK-O0PQmma7og2Rg__"
         },
         {
+            "id":2,
             "nombre":"Stormtrooper",
             "precio":"60.00",
-            "imagen":"https://s3-alpha-sig.figma.com/img/7288/617c/839c11fc3105027e126215f3647fa5b0?Expires=1721001600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Ndk-7NiOQRKmxloL-PtlMFV7gWpS53I11dkC7FeIBalpe9mMr~ehsIW-Yev0~GrUyIH-7yrZK1W6ZFfEfqrL6x1kHCbhQAFChKxOFJ6dU-BwkptwwVlnLEPfEwcrtpzARrsjJWvkT1Zw-TvU47Ygr2dEKlZwkZqj4gO0XNjhWLQ9UzCnP0727c3kY5p35MiJHqyClFnwlaL-OCOC8TsiJ6Q6xNM6KpijDLLFap87WxUAiaFbsquy~FWeKVRxvjJ3xaU-NXidZW98W0vVOhnxS1mrBQ8LvqTMyvvvpQ~cK9QuIR9KNCBuw~bswNFhDESDBZy5sWNK-O0PQmma7og2Rg__",
-            "id":2     
+            "imagen":"https://s3-alpha-sig.figma.com/img/7288/617c/839c11fc3105027e126215f3647fa5b0?Expires=1721001600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Ndk-7NiOQRKmxloL-PtlMFV7gWpS53I11dkC7FeIBalpe9mMr~ehsIW-Yev0~GrUyIH-7yrZK1W6ZFfEfqrL6x1kHCbhQAFChKxOFJ6dU-BwkptwwVlnLEPfEwcrtpzARrsjJWvkT1Zw-TvU47Ygr2dEKlZwkZqj4gO0XNjhWLQ9UzCnP0727c3kY5p35MiJHqyClFnwlaL-OCOC8TsiJ6Q6xNM6KpijDLLFap87WxUAiaFbsquy~FWeKVRxvjJ3xaU-NXidZW98W0vVOhnxS1mrBQ8LvqTMyvvvpQ~cK9QuIR9KNCBuw~bswNFhDESDBZy5sWNK-O0PQmma7og2Rg__"
+        },
+        {
+            "id":3,
+            "nombre":"Stormtrooper",
+            "precio":"60.00",
+            "imagen":"https://s3-alpha-sig.figma.com/img/7288/617c/839c11fc3105027e126215f3647fa5b0?Expires=1721001600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Ndk-7NiOQRKmxloL-PtlMFV7gWpS53I11dkC7FeIBalpe9mMr~ehsIW-Yev0~GrUyIH-7yrZK1W6ZFfEfqrL6x1kHCbhQAFChKxOFJ6dU-BwkptwwVlnLEPfEwcrtpzARrsjJWvkT1Zw-TvU47Ygr2dEKlZwkZqj4gO0XNjhWLQ9UzCnP0727c3kY5p35MiJHqyClFnwlaL-OCOC8TsiJ6Q6xNM6KpijDLLFap87WxUAiaFbsquy~FWeKVRxvjJ3xaU-NXidZW98W0vVOhnxS1mrBQ8LvqTMyvvvpQ~cK9QuIR9KNCBuw~bswNFhDESDBZy5sWNK-O0PQmma7og2Rg__"
         }
     ]
     

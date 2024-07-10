@@ -1,4 +1,4 @@
-import { conexionAPI } from "./conexionAPI";
+import { index } from ".";
 const formulario = document.querySelector("[data-formulario]");
 
 async function crearCard(evento){
@@ -9,9 +9,13 @@ async function crearCard(evento){
     const nombre = querySelector("data-nombre").value;
     const precio = querySelector("data-precio").value;
 
-    await conexionAPI.enviarCard(imagen, nombre, precio);
+    try{
+        await index.enviarCard(imagen, nombre, precio);
+        window.location.href='index.html'        
+    }catch(e){
+        alert(e)
+    }
 
-    window.location.href='index.html'
 }
 
-formulario.addEventListener("submit", evento=> crearCard())
+formulario.addEventListener("submit", evento=> crearCard());

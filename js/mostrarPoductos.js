@@ -1,4 +1,4 @@
-import { conexionAPI } from "./conexionAPI";
+import { index } from ".";
 const lista = document.querySelector("[data-lista]")
 
 function crearCard(imagen, nombre, precio){
@@ -14,10 +14,13 @@ function crearCard(imagen, nombre, precio){
 }
 
 async function listarProductos(){
-    const listAPI =conexionAPI.listarProductos()
+    try{
+        const listAPI = index.listarProductos()
 
-    listAPI.array.forEach(producto => {lista.appendChild(crearCard(producto.imagen, producto.nombre, producto.precio))
-        
-    });
+        listAPI.array.forEach(producto => {lista.appendChild(crearCard(producto.imagen, producto.nombre, producto.precio))});
+    }catch{
+        lista.innerHTML=`<h1 class="titleMisProductos">Ha ocurrido un problema con la conexion :(</h1>`
+    }
+
 }
 listarProductos()
