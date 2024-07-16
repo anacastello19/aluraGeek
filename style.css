@@ -187,7 +187,10 @@ footer {
     font-family: "Chakra Petch", sans-serif;
     margin-bottom: 3vh;
 }
-@media screen and (max-width: 750px) {
+
+
+
+@media screen and (max-width: 850px) {
     main{
         display: flex;
         flex-direction: column;
