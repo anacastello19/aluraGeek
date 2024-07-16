@@ -67,14 +67,14 @@ main{
     padding: 1vh;
     border-radius: 1.5vh;
     border: 0.1vh solid #000 ;
-    height: 25vh;
+    height: 30vh;
     box-shadow: #000 1px 1px 10px;
 
 }
 
 .imgProduct{
     width: 19vh;
-    height: 18vh;
+    height: 19vh;
     gap: 0px;
     border-radius: 0.5vh;
     border: 0.2vh solid #000;
@@ -84,10 +84,11 @@ main{
 
 .titleH6{
     font-size: 2vh;
-    margin-top: 1vh;
+    margin: 1.5vh 0;
     font-family: "Chakra Petch", sans-serif;
     color: #E5E5E5;
-    height: 1vh;
+    height: 2vh;
+    text-align: start;
 }
 .titleContainer{
     display: flex;
